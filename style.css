@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100,200,400,500,600,700,800&display=swap');
+
+header {
+    height: 1520px;
+    background-image: url(./Mask\ Group\ 1.png);
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.left-side {
+    display: inline-block;
+  
+}
+
+.left-side h1 {
+    display: inline-block;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 40px;
+    margin-left: 25px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu ul li {
+    color: white;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.menu ul li:hover{
+    border-bottom: 2px solid yellow;
+}
+
+.buttons {
+    display: inline-block;
+    padding: 30px;
+}
+
+.buttons button {
+    padding: 15px 50px 15px 50px;
+    background-color: #572BD9;
+    color: white;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttons button:hover {  
+      border-color: skyblue;
+}
+
+.rigth-side {
+    display: inline-block;
+    margin-top: 15px;
+    vertical-align: top;
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.description h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    color: white;
+}
+
+.description {
+    text-align: center;
+  
+}
+
+.description p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.yellow button {
+    background-color: #FFDD33;
+}
+
+.white-pic {
+    text-align: center;
+    margin-top: 50px;
+}
