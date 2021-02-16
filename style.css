@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100,200,400,500,600,700,800&display=swap');
 
 header {
-    height: 1520px;
-    background-image: url(./Mask\ Group\ 1.png);
+    background-image: url(./images/blueCubs.png);
     background-repeat: no-repeat;
     padding: 40px;
+    background-size: 100% 55%;
+    background-color: #e2e6f838
 }
 
 button {
@@ -39,15 +40,20 @@ button {
 }
 
 .menu ul li:hover{
-    border-bottom: 2px solid yellow;
+    border-bottom: 4px solid yellow;
+    margin-bottom: 10px;
 }
 
-.buttons {
+.button-div {
     display: inline-block;
-    padding: 30px;
 }
 
-.buttons button {
+header .button-div {
+    
+    margin: 20px;
+}
+
+.button-div button {
     padding: 15px 50px 15px 50px;
     background-color: #572BD9;
     color: white;
@@ -56,7 +62,7 @@ button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.buttons button:hover {  
+ button:hover {  
       border-color: skyblue;
 }
 
@@ -75,6 +81,7 @@ button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 65px;
     color: white;
+    font-weight: 600;
 }
 
 .description {
@@ -86,6 +93,7 @@ button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: white;
+    line-height: 1.7;
 }
 
 .yellow button {
@@ -95,4 +103,345 @@ button {
 .white-pic {
     text-align: center;
     margin-top: 50px;
+}
+
+.icon {
+    display: inline-block;
+    opacity: 0.3;
+}
+
+.icon img {
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+.icon p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    letter-spacing: 15px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+  
+   
+}
+
+.icon:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.section-1 {
+    background-color: #e2e6f838;
+}
+
+.description2 {
+    padding-top: 25px;
+}
+
+.description2 h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.description2 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #7E92AC;
+    line-height: 1.5;
+}
+
+.article {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 75px 60px 95px;
+    background-color: white;
+    margin: 60px;
+    cursor: pointer;
+    
+}
+
+.article p {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin: 10px 0;
+}
+
+.article span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #7E92AC;
+}
+
+.articles {
+    margin-top: 120px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+.article:hover {
+    box-shadow: 0 0 30px #b9b2b2;
+}
+
+.section-2 {
+    padding: 120px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+.white-scpae {
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 0 30px #b9b2b2;
+    display: inline-block;
+}
+
+.section2-text {
+    display: inline-block;
+}
+
+.section2-text h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.section2-text p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #7E92AC;
+}
+
+.section-2 button {
+    margin-top: 70px;
+}
+
+.section-3 {
+    background-image: url(./images/blueBackground.png);
+    background-repeat: no-repeat;
+    padding: 40px;
+    background-size: 100% 85%;
+    height: 560px;
+}
+
+.section-3 h3 {
+    margin-top: 12px;
+}
+.section-3 button {
+    margin-top: 30px;
+}
+
+.section-4 {
+    margin-top: 135px;
+    display: flex;
+    justify-content: space-around;
+}
+.section-4 .description {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.section-4 h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-left: 45px;
+}
+
+.section-4 ul li {
+    list-style: none;
+}
+
+.section-4 p {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #7E92AC;
+}
+
+.section-4 .button-div {
+    display: block;
+    text-align: start;
+    margin-left: 32px;
+}
+
+.lists {
+    text-align: left;
+}
+
+.lists p {
+    vertical-align: top;
+    margin-top: 25px;
+}
+
+.section-4 .white-scpae {
+    margin-top: 90px;
+}
+
+.section-5 {
+    padding-top: 40px;
+    padding-bottom: 150px;
+    background-color: #e2e6f838;
+    margin-top: 150px;
+}
+
+.section5-header h3 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 80px;
+    margin-left: 45px;
+}
+
+.person h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 20px
+}
+
+.person span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #7E92AC;
+    margin-top: 25px;
+}
+
+.person {
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    background-color: white;
+    padding: 35px;
+    position: relative;
+}
+
+.person p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #7E92AC;
+}
+
+
+.person-information {
+    display: flex;
+    justify-content: center;
+}
+
+.person img:first-child {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50% ,-50%);
+}
+
+.section-6 {
+    background-image: url(./images/blueback.png);
+    padding-bottom: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-6  {
+    padding-top: 100px;
+}
+
+.price-level {
+    background-color: white;
+    display: inline-block;
+    padding: 35px;
+    text-align: center;
+    margin-left: 40px;
+    width: 440px;
+    height: 740px;
+}
+
+.price-level p {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #7E92AC;
+}
+
+.price-level ul li {
+    list-style: none;
+    text-align: left;
+    
+}
+
+.price-level ul {
+    padding: 0;
+    line-height: 0.4;
+}
+
+.price-level span {
+    color: #6837FA;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-btn button{
+    margin-top: 50px;
+}
+
+ .blue-background {
+    background-color: #6837FA;
+    color: white;
+}
+
+.blue-background p {
+    color: white;
+}
+
+.blue-background span {
+    color: white;
+}
+
+.price-level {
+    border-radius: 5px;
+    padding: 30px 50px ;
+}
+
+.price-level h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.price-level h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.price-level h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    margin: 15px 0 0 0;
+    font-weight: 400;
+}
+
+.lists2 {
+    padding-left: 105px;
 }
